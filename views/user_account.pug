@@ -1,0 +1,115 @@
+extends _layout.pug
+block body
+  // ------------------------------------------------------
+  section.toflex
+    section.menu-bar
+      li.menu-bar-content
+        a.menu-bar-content-item(href='#settings')
+          svg.menu-bar-content-item-icon(width='43', height='41', viewBox='0 0 43 41', fill='none', xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd', clip-rule='evenodd', d='M37.4244 20.1486C37.4244 20.8321 37.3609 21.4755 37.2761 22.1188L41.7471 25.436C42.1497 25.7376 42.2556 26.2804 42.0013 26.7227L37.7635 33.6787C37.5728 34.0004 37.2125 34.1813 36.8523 34.1813C36.7252 34.1813 36.598 34.1612 36.4709 34.121L31.1948 32.1106C30.0929 32.8946 28.9063 33.5782 27.6138 34.0808L26.8086 39.4084C26.745 39.8909 26.3 40.2527 25.7703 40.2527H17.2946C16.7648 40.2527 16.3199 39.8909 16.2563 39.4084L15.4511 34.0808C14.1586 33.5782 12.972 32.9147 11.8701 32.1106L6.59398 34.121C6.48803 34.1612 6.3609 34.1813 6.23376 34.1813C5.85235 34.1813 5.49213 34.0004 5.30143 33.6787L1.06357 26.7227C0.809294 26.2804 0.91524 25.7376 1.31784 25.436L5.78878 22.1188C5.70403 21.4755 5.64046 20.812 5.64046 20.1486C5.64046 19.4852 5.70403 18.8217 5.78878 18.1784L1.31784 14.8612C0.91524 14.5596 0.788104 14.0168 1.06357 13.5745L5.30143 6.61851C5.49213 6.29684 5.85235 6.1159 6.21257 6.1159C6.33971 6.1159 6.46684 6.13601 6.59398 6.17621L11.8701 8.18663C12.972 7.40257 14.1586 6.71903 15.4511 6.21642L16.2563 0.888823C16.3199 0.406324 16.7648 0.0444489 17.2946 0.0444489H25.7703C26.3 0.0444489 26.745 0.406324 26.8086 0.888823L27.6138 6.21642C28.9063 6.71903 30.0929 7.38246 31.1948 8.18663L36.4709 6.17621C36.5769 6.13601 36.704 6.1159 36.8311 6.1159C37.2125 6.1159 37.5728 6.29684 37.7635 6.61851L42.0013 13.5745C42.2556 14.0168 42.1497 14.5596 41.7471 14.8612L37.2761 18.1784C37.3609 18.8217 37.4244 19.4651 37.4244 20.1486ZM33.1865 20.1486C33.1865 19.7264 33.1653 19.3042 33.0806 18.681L32.7839 16.4092L34.6698 15.0019L36.937 13.2931L35.4538 10.8605L32.7627 11.8858L30.5167 12.7502L28.5884 11.3429C27.7409 10.7398 26.8933 10.2774 25.9822 9.91556L23.7361 9.05108L23.3971 6.77931L22.9945 4.06525H20.0491L19.6254 6.77931L19.2863 9.05108L17.0403 9.91556C16.1715 10.2573 15.3027 10.7398 14.3916 11.3832L12.4846 12.7502L10.2809 11.9059L7.58983 10.8806L6.10658 13.3132L8.39502 15.0019L10.2809 16.4092L9.98422 18.681C9.92066 19.2841 9.87828 19.7465 9.87828 20.1486C9.87828 20.5507 9.92066 21.013 9.98422 21.6363L10.2809 23.908L8.39502 25.3153L6.10658 27.0041L7.58983 29.4367L10.2809 28.4114L12.5269 27.5469L14.4552 28.9542C15.3027 29.5573 16.1503 30.0197 17.0615 30.3816L19.3075 31.2461L19.6466 33.5178L20.0491 36.2319H23.0157L23.4394 33.5178L23.7785 31.2461L26.0245 30.3816C26.8933 30.0398 27.7621 29.5573 28.6732 28.914L30.5802 27.5469L32.7839 28.3913L35.475 29.4166L36.9582 26.984L34.6698 25.2952L32.7839 23.8879L33.0806 21.6162C33.1441 21.013 33.1865 20.5708 33.1865 20.1486ZM21.5325 12.1069C16.8497 12.1069 13.0568 15.7056 13.0568 20.1486C13.0568 24.5916 16.8497 28.1903 21.5325 28.1903C26.2153 28.1903 30.0082 24.5916 30.0082 20.1486C30.0082 15.7056 26.2153 12.1069 21.5325 12.1069ZM17.2946 20.1486C17.2946 22.3601 19.2016 24.1694 21.5325 24.1694C23.8633 24.1694 25.7703 22.3601 25.7703 20.1486C25.7703 17.9371 23.8633 16.1278 21.5325 16.1278C19.2016 16.1278 17.2946 17.9371 17.2946 20.1486Z', fill='currentColor')
+          span.menu-bar-content-item-text Settings
+      li.menu-bar-content
+        a.menu-bar-content-item(href='#myBooking')
+          svg.menu-bar-content-item-icon(width='43', height='38', viewBox='0 0 43 38', fill='none', xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd', clip-rule='evenodd', d='M31.8944 8.17778H38.0778C40.3656 8.17778 42.2 9.91823 42.2 12.0889V33.6C42.2 35.7707 40.3656 37.5111 38.0778 37.5111H5.09999C2.81216 37.5111 0.977768 35.7707 0.977768 33.6V12.0889C0.977768 9.91823 2.81216 8.17778 5.09999 8.17778H11.2833V4.26667C11.2833 2.096 13.1177 0.35556 15.4055 0.35556H27.7722C30.06 0.35556 31.8944 2.096 31.8944 4.26667V8.17778ZM27.7722 4.26667H15.4055V8.17778H27.7722V4.26667ZM38.0778 33.6H5.10001V29.6889H38.0778V33.6ZM5.10001 23.8222H38.0778V12.0889H31.8944V16H27.7722V12.0889H15.4056V16H11.2833V12.0889H5.10001V23.8222Z', fill='currentColor')
+          span.menu-bar-content-item-text My Bookings
+      li.menu-bar-content
+        a.menu-bar-content-item(href='#myreviews')
+          svg.menu-bar-content-item-icon(width='45', height='40', viewBox='0 0 45 40', fill='none', xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd', clip-rule='evenodd', d='M28.6396 14.1264L44.2 15.3995L32.4053 25.1117L35.9329 39.5467L22.5583 31.8877L9.18377 39.5467L12.733 25.1117L0.916656 15.3995L16.477 14.1469L22.5583 0.533325L28.6396 14.1264ZM14.421 32.7091L22.5583 28.048L30.7172 32.7296L28.553 23.9413L35.7381 18.0277L26.259 17.2475L22.5583 8.952L18.8792 17.2269L9.40017 18.0072L16.5852 23.9208L14.421 32.7091Z', fill='currentColor')
+          span.menu-bar-content-item-text My Reviews
+      li.menu-bar-content
+        a.menu-bar-content-item(href='#billing')
+          svg.menu-bar-content-item-icon(width='43', height='29', viewBox='0 0 43 29', fill='none', xmlns='http://www.w3.org/2000/svg')
+            path(fill-rule='evenodd', clip-rule='evenodd', d='M38.0778 0.555542H5.09999C2.81216 0.555542 0.998379 2.12194 0.998379 4.07554L0.977768 25.1955C0.977768 27.1491 2.81216 28.7155 5.09999 28.7155H38.0778C40.3656 28.7155 42.2 27.1491 42.2 25.1955V4.07554C42.2 2.12194 40.3656 0.555542 38.0778 0.555542ZM38.0778 25.1956H5.10007V14.6356H38.0778V25.1956ZM5.10007 7.59555H38.0778V4.07555H5.10007V7.59555Z', fill='currentColor')
+          span.menu-bar-content-item-text Billing
+    // ------------------------------------------------------
+    section.page-content
+      .page-content-item
+        div
+          h1.page-content-main-text Account Settings
+          form(action='#')
+            label.form-label(for='name') Name
+            input.form-placeholder.drop-shadow(type='text' name='name' placeholder='User name')
+            label.form-label(for='email') E-mail
+            input.form-placeholder.drop-shadow(type='text' name='email' placeholder='username@xyzmail.com')
+            input.submit-btn.drop-shadow(type='submit' value='Save Changes')
+
+        .profile
+          img#myImg.profile-photo(src='/src/img/user-picture.jpg', alt='User Profile')
+          #myModal.modal
+            span.close ×
+            // &times gives us the multiply symbol
+            img#imgUser.modal-content
+            #caption
+          a.form-label(href='#new-profile-picture') Choose New photo
+        div
+          h1.page-content-main-text Password Change
+          form(action='#')
+            label.form-label(for='current-password') Current password
+            input.form-placeholder.drop-shadow(type='text' name='current-password' placeholder='...............')
+            label.form-label(for='new-password') New password
+            input.form-placeholder.drop-shadow(type='text' name='new-password' placeholder='...............')
+            label.form-label(for='confirm-password') Confirm password
+            input.form-placeholder.drop-shadow(type='text' name='confirm-password' placeholder='...............')
+            input.submit-btn.drop-shadow(type='submit' value='Update password')
+
+  footer.footer
+    .footer-main
+      .footer-header
+        .footer-logo
+          img.footer-logo-icon(src='/src/img/icon/logo.svg')
+          h1.footer-logo-text CakeOP
+        p.footer-logo-ptext
+          | Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          | Repellendus, commodi adipisci! Unde laudantium ipsam tenetur
+          | cupiditate. Soluta.
+      .footer-links
+        .footer-link
+          h3.footer-link-header COMPANY
+          ul
+            li
+              a(href='#') About Us
+            li
+              a(href='#') Our Works
+            li
+              a(href='#') Our Products
+        .footer-link
+          h3.footer-link-header RESOURCES
+          ul
+            li
+              a(href='#') Account
+            li
+              a(href='#') Purchases
+            li
+              a(href='#') Cart
+        .footer-link
+          h3.footer-link-header SUPPORT
+          ul
+            li
+              a(href='#') Contact Us
+            li
+              a(href='#') FAQs
+        .footer-link
+          h3.footer-link-header FOLLOW US
+          ul
+            li
+              a(href='#')
+                img(src='/src/img/icon/Twitter.svg', alt='twitter account')
+                | Twitter
+            li
+              a(href='#')
+                img(src='/src/img/icon/Facebook.svg', alt='Facebook Account')
+                | Facebook
+            li
+              a(href='#')
+                img(src='/src/img/icon/Instagram.svg', alt='Instagram Account')
+                |                   Instagram
+    hr.hr
+    .footer-secondary
+      h4 Copyright © 2020 CakeOP. All rights reserved.
+      ul
+        li
+          a(href='#') Terms & Conditions
+        li
+          a(href='#') Privacy Policy

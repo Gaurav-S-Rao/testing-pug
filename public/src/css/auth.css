@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0; }
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  border-radius: 1rem; }
+  .login .close-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.75rem;
+    cursor: pointer; }
+  .login .auth-header {
+    margin: 3rem 0 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 600; }
+  .login .auth-container {
+    width: fit-content;
+    text-align: center; }
+    .login .auth-container .auth-btn {
+      border: none;
+      width: 100%;
+      background-color: transparent;
+      margin-bottom: 1rem;
+      outline: none;
+      cursor: pointer; }
+    .login .auth-container .hr-text {
+      color: black;
+      text-align: center;
+      opacity: 0.6;
+      padding-bottom: 1.5rem;
+      position: relative; }
+      .login .auth-container .hr-text:before, .login .auth-container .hr-text:after {
+        content: '';
+        display: inline-block;
+        border-top: 2px solid black;
+        padding: auto 1rem;
+        transform: translateY(-0.3125rem);
+        width: 4rem;
+        margin: 0 1rem;
+        opacity: 0.6; }
+    .login .auth-container .form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .login .auth-container .form .form-input {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 0 1.25rem 0; }
+        .login .auth-container .form .form-input label {
+          font-size: 1.25rem;
+          opacity: 0.85;
+          font-weight: 500;
+          padding-bottom: 0.15rem; }
+        .login .auth-container .form .form-input input {
+          height: 2.5rem;
+          border: 2px solid #fff6b8;
+          outline: none;
+          border-radius: 5px;
+          padding: 0 0.75rem;
+          width: 100%; }
+          .login .auth-container .form .form-input input:active, .login .auth-container .form .form-input input:focus {
+            border: 2px solid #6b4a40;
+            width: 100%;
+            height: 2.5rem;
+            transition: 1s; }
+      .login .auth-container .form .form-button {
+        color: white;
+        outline: none;
+        border: none;
+        width: 100%;
+        height: 3rem;
+        background: #6b4a40;
+        border-radius: 5px;
+        margin: 0 0 3rem 0;
+        cursor: pointer; }
