@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "sass": "node-sass -w ./public/src/sass/ -o ./public/src/css"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "pug": "^3.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "node-sass": "^4.14.1"
   }
 }

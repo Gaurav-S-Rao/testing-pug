@@ -1,0 +1,88 @@
+extends _layout.pug
+block body
+  section.allproducts
+    .allproducts-menu
+      h2
+        img(src='/img/icon/filter.svg' alt='filter icon') 
+      .filter-price
+        h3.filter-header Price
+        #slider.filter-price-slider
+          span.slider-btn.left
+          span.slider-highlight
+          span.slider-btn.right
+        .filter-price-display
+          input#priceLower(type='number' name='priceLower' min='0' max='2000')
+          input#priceUpper(type='number' name='priceUpper' min='0' max='2000')
+      .filter-weight
+        .header-text Weight
+        #weight-dropdown.weight-dropdown
+          span#weight-dropdown-display 500 g
+          span &#x25BC;
+          .weight-dropdown-content
+            .dropdown-content-item 500 g
+            .dropdown-content-item 1 kg
+            .dropdown-content-item 1.5 kg
+            .dropdown-content-item 2 kg
+      .filter-ratings
+        .header-text Ratings
+        .ratings-content
+          .ratings-item
+            img(src='/img/icon/5star.svg' alt='')
+            span &amp; Up
+          .ratings-item
+            img(src='/img/icon/4star.svg' alt='')
+            span &amp; Up
+          .ratings-item
+            img(src='/img/icon/3star.svg' alt='')
+            span &amp; Up
+          .ratings-item
+            img(src='/img/icon/2star.svg' alt='')
+            span &amp; Up
+    .allproducts-items
+      .row
+        .allproducts-content-item
+          img.allproducts-content-item-like(src='/img/icon/heart-solid.svg' alt='icon')
+          img.allproducts-content-item-image(src='/img/product-img-1.png' alt='Product')
+          h2.allproducts-content-item-name Strawberry cup cake
+          h4.allproducts-content-item-text Special Edition Limited
+          span.allproducts-content-item-price &#x20B9;120
+        .allproducts-content-item
+          img.allproducts-content-item-like(src='/img/icon/heart-solid.svg' alt='icon')
+          img.allproducts-content-item-image(src='/img/product-img-1.png' alt='Product')
+          h2.allproducts-content-item-name Strawberry cup cake
+          h4.allproducts-content-item-text Special Edition Limited
+          span.allproducts-content-item-price &#x20B9;120
+        .allproducts-content-item
+          img.allproducts-content-item-like(src='/img/icon/heart-solid.svg' alt='icon')
+          img.allproducts-content-item-image(src='/img/product-img-1.png' alt='Product')
+          h2.allproducts-content-item-name Strawberry cup cake
+          h4.allproducts-content-item-text Special Edition Limited
+          span.allproducts-content-item-price &#x20B9;120
+      .row
+        .allproducts-content-item
+          img.allproducts-content-item-like(src='/img/icon/heart-solid.svg' alt='icon')
+          img.allproducts-content-item-image(src='/img/product-img-1.png' alt='Product')
+          h2.allproducts-content-item-name Strawberry cup cake
+          h4.allproducts-content-item-text Special Edition Limited
+          span.allproducts-content-item-price &#x20B9;120
+        .allproducts-content-item
+          img.allproducts-content-item-like(src='/img/icon/heart-solid.svg' alt='icon')
+          img.allproducts-content-item-image(src='/img/product-img-1.png' alt='Product')
+          h2.allproducts-content-item-name Strawberry cup cake
+          h4.allproducts-content-item-text Special Edition Limited
+          span.allproducts-content-item-price &#x20B9;120
+        .allproducts-content-item
+          img.allproducts-content-item-like(src='/img/icon/heart-solid.svg' alt='icon')
+          img.allproducts-content-item-image(src='/img/product-img-1.png' alt='Product')
+          h2.allproducts-content-item-name Strawberry cup cake
+          h4.allproducts-content-item-text Special Edition Limited
+          span.allproducts-content-item-price &#x20B9;120
+      .products-paginate
+        a(href='#') &laquo;
+        a(href='#') 1
+        a.active(href='#') 2
+        a(href='#') 3
+        a(href='#') 4
+        a(href='#') 5
+        a(href='#') 6
+        a(href='#') &raquo;

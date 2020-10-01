@@ -11,6 +11,11 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/cakes", (req, res) => {
+  res.render("cakes", {
+    title: "Get all cakes",
+  });
+});
 app.listen(5000, (req, res) => {
   console.log(`listening on port 5000.....`);
 });
